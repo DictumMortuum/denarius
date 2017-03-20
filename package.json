@@ -1,0 +1,64 @@
+{
+  "name": "denarius",
+  "version": "0.0.1",
+  "description": "The development repository of denarius, an expenses tracker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot",
+    "build": "NODE_ENV=production webpack -p --config webpack.production.config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DictumMortuum/denarius"
+  },
+  "keywords": [
+    "react",
+    "pouch",
+    "redux",
+    "webpack"
+  ],
+  "author": "Dimitris Raviolos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DictumMortuum/denarius"
+  },
+  "homepage": "https://github.com/DictumMortuum/denarius#readme",
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "css-loader": "*",
+    "eslint": "*",
+    "eslint-loader": "^*",
+    "eslint-plugin-react": "*",
+    "fbjs": "*",
+    "history": "*",
+    "jest-cli": "*",
+    "material-ui": "*",
+    "moment": "*",
+    "pouchdb": "*",
+    "react": "*",
+    "react-addons-create-fragment": "*",
+    "react-addons-pure-render-mixin": "*",
+    "react-addons-transition-group": "*",
+    "react-addons-update": "*",
+    "react-dom": "*",
+    "react-hot-loader": "*",
+    "react-markdown": "^2.4.5",
+    "react-redux": "*",
+    "react-simplemde-editor": "^3.6.10",
+    "react-tap-event-plugin": "*",
+    "redux": "*",
+    "redux-devtools": "*",
+    "redux-logger": "*",
+    "redux-promise": "*",
+    "redux-thunk": "*",
+    "reselect": "^2.5.4",
+    "style-loader": "*",
+    "webpack": "*2.2.0",
+    "webpack-dev-server": "*2.2.0"
+  }
+}
